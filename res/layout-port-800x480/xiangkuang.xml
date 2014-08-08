@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/white"
+    >   
+    <TextView
+        android:id="@+id/xiangkuangtx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="相框"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/black"
+        android:textSize="20dip"
+        />    
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="400dip"
+        android:layout_height="400dip"
+        android:layout_gravity="center_horizontal"
+        />
+   <HorizontalScrollView
+        android:id="@+id/horizontalScrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="fill_horizontal">
+            
+            <LinearLayout
+            
+            android:layout_width="120dip"
+            android:layout_height="50dip"
+            android:gravity="center_vertical"
+            android:orientation="vertical" >
+            <Button
+                android:id="@+id/xiang1"
+                android:layout_width="100dip"
+                android:layout_height="50dip"
+                android:text="相框1"/>
+        </LinearLayout>
+         <LinearLayout         
+            android:layout_width="120dip"
+            android:layout_height="50dip"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/xiang2"
+                android:layout_width="100dip"
+                android:layout_height="50dip"
+                android:text="相框2"/>
+        </LinearLayout>               
+         <LinearLayout     
+            android:layout_width="120dip"
+            android:layout_height="50dip"
+            android:gravity="center_vertical"
+            android:orientation="vertical" >
+            <Button
+                android:id="@+id/xiang3"
+                android:layout_width="100dip"
+                android:layout_height="50dip"
+                android:text="相框3"/>
+
+        </LinearLayout>
+            
+         <LinearLayout
+            
+            android:layout_width="120dip"
+            android:layout_height="50dip"
+            android:gravity="center_vertical"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/xiang4"
+                android:layout_width="100dip"
+                android:layout_height="50dip"
+                android:text="相框4"/>
+
+        </LinearLayout>
+        <LinearLayout
+            
+            android:layout_width="120dip"
+            android:layout_height="50dip"
+            android:gravity="center_vertical"
+            android:orientation="vertical" >
+            <Button
+                android:id="@+id/xiang5"
+                android:layout_width="100dip"
+                android:layout_height="50dip"
+                android:text="相框5"/>
+        </LinearLayout>
+        <LinearLayout          
+            android:layout_width="120dip"
+            android:layout_height="50dip"
+            android:gravity="center_vertical"
+            android:orientation="vertical" >
+            <Button
+                android:id="@+id/xiang6"
+                android:layout_width="100dip"
+                android:layout_height="50dip"
+                android:text="相框6"/>
+        </LinearLayout>
+        </LinearLayout>
+    </HorizontalScrollView>    
+    <LinearLayout
+       android:id="@+id/linearLayout1"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content" 
+       android:orientation="horizontal"
+       >      
+       <Button
+       android:id="@+id/xiangquxiao"
+       android:layout_width="170dip"
+       android:layout_height="50dip"
+       android:text="取消" />
+
+      <Button
+       android:id="@+id/xiangbaocun"
+       android:layout_width="170dip"
+       android:layout_height="50dip"
+       android:text="保存" />
+   </LinearLayout>
+</LinearLayout>

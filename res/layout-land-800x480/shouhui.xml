@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="@color/white"
+    >
+       <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="400dip"
+        android:layout_height="250dip"
+        android:layout_gravity="center_horizontal"
+        />
+  
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="fill_horizontal">
+            <Button
+                android:id="@+id/heibai"
+                android:layout_width="90dip"
+                android:layout_height="50dip"
+                android:text="黑白线条"/>
+
+            <Button
+                android:id="@+id/xianshi"
+                android:layout_width="90dip"
+                android:layout_height="50dip"
+                android:text="超现实"/>
+
+            <Button
+                android:id="@+id/naxienian"
+                android:layout_width="90dip"
+                android:layout_height="50dip"
+                android:text="那些年"/>
+
+
+            <Button
+                android:id="@+id/caise"
+                android:layout_width="90dip"
+                android:layout_height="50dip"
+                android:text="彩色"/>
+
+            <Button
+                android:id="@+id/youcai"
+                android:layout_width="90dip"
+                android:layout_height="50dip"
+                android:text="油彩画"/>
+
+            <Button
+                android:id="@+id/tanbi"
+                android:layout_width="90dip"
+                android:layout_height="50dip"
+                android:text="炭笔画"/>
+        </LinearLayout>
+    
+</LinearLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, MyCameraActivity!</string>
+    <string name="app_name">照相机</string>
+    <string name="fenbian">分辨率</string>
+    <string name="chu">触屏拍摄</string>
+    <string name="goutu">构图</string>
+    <string name="gou1">开</string>
+    <string name="gou2">关</string>
+    <string name="shanguang">闪光灯</string>
+    <string name="shan1">开</string>
+    <string name="shan2">关</string>
+    <string name="fen1">640X480</string>
+    <string name="fen2">800X600</string>
+    <string name="fen3">1024X768</string>
+    <string name="fen4">1280X960</string>
+    <string name="fen5">1600X1200</string>
+    <string name="fen6">3264X2448</string>
+    <string name="jiaoju">焦距</string>
+    <string name="jiao1">X1</string>
+    <string name="jiao2">X2</string>
+    <string name="jiao3">X3</string>
+    <string name="jiao4">X4</string>
+    <string name="jiao5">X5</string>
+</resources>

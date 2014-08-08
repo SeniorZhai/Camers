@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="@color/white"
+    >
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="500dip"
+        android:layout_height="300dip"
+        android:layout_gravity="center_horizontal"
+        />
+  <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:orientation="horizontal"
+        >   
+            <Button
+                android:id="@+id/zidong"
+                android:layout_width="110dip"
+                android:layout_height="50dip"
+                android:text="自动增强"/>
+      
+            <Button
+                android:id="@+id/yejian"
+                android:layout_width="110dip"
+                android:layout_height="50dip"
+                android:text="夜间"/>
+      
+            <Button
+                android:id="@+id/shinei"
+                android:layout_width="110dip"
+                android:layout_height="50dip"
+                android:text="室内"/>
+      
+            <Button
+                android:id="@+id/wennuan"
+                android:layout_width="110dip"
+                android:layout_height="50dip"
+                android:text="温暖"/>
+       
+            <Button
+                android:id="@+id/ku"
+                android:layout_width="110dip"
+                android:layout_height="50dip"
+                android:text="酷"/>
+       
+            <Button
+                android:id="@+id/fanzhuan"
+                android:layout_width="110dip"
+                android:layout_height="50dip"
+                android:text="反转片"/>
+             <Button
+       			android:id="@+id/zengquxiao"
+       			android:layout_width="170dip"
+       			android:layout_height="50dip"
+       			android:text="取消" />
+
+      		<Button
+       			android:id="@+id/zengbaocun"
+       			android:layout_width="170dip"
+       			android:layout_height="50dip"
+       			android:text="保存" />
+        
+  </LinearLayout>
+</LinearLayout>

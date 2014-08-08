@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.bn.camera"
+    android:versionCode="1"
+    android:versionName="1.0" >
+     <uses-sdk android:minSdkVersion="4" android:targetSdkVersion="14"> </uses-sdk>
+    <application
+        android:icon="@drawable/xiangji"
+        android:label="@string/app_name" >
+        <activity
+            android:name=".MyCameraActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name=".ImageActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name="com.bn.texiao.Zqpicture"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.bn.texiao.ShouhuiPicture"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.bn.texiao.MofaPicture"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name="com.bn.texiao.QitaPicture"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+            <activity
+            android:name="com.bn.texiao.xiangkuang"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+           <activity
+            android:name="com.bn.texiao.Laozhaopian"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+    </application>
+     <!-- 声明需要拍照权限 -->
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <!-- 声明需要写存储卡权限 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <!-- 声明需要打开闪光灯权限 -->
+    <uses-permission android:name="android.permission.FLASHLIGHT"/>
+</manifest>

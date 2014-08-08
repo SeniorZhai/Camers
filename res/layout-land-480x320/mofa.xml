@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+        <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="fill_parent"
+        android:layout_height="500dip"
+        android:layout_gravity="center_horizontal"
+        />
+  <HorizontalScrollView
+        android:id="@+id/horizontalScrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="fill_horizontal">   
+            <LinearLayout
+            android:layout_width="120dip"
+            android:layout_height="50dip"
+            android:gravity="center_vertical"
+            android:orientation="vertical" >
+            <Button
+                android:id="@+id/taohua"
+                android:layout_width="100dip"
+                android:layout_height="50dip"
+                android:text="桃花红"/>
+        </LinearLayout>
+         <LinearLayout          
+            android:layout_width="120dip"
+            android:layout_height="50dip"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/zhongguo"
+                android:layout_width="100dip"
+                android:layout_height="50dip"
+                android:text="中国红"/>
+
+        </LinearLayout>   
+            
+         <LinearLayout
+            
+            android:layout_width="120dip"
+            android:layout_height="50dip"
+            android:gravity="center_vertical"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/juzi"
+                android:layout_width="100dip"
+                android:layout_height="50dip"
+                android:text="橘子橙"/>
+
+        </LinearLayout>
+            
+         <LinearLayout          
+            android:layout_width="120dip"
+            android:layout_height="50dip"
+            android:gravity="center_vertical"
+            android:orientation="vertical" >
+            <Button
+                android:id="@+id/senzi"
+                android:layout_width="100dip"
+                android:layout_height="50dip"
+                android:text="森之绿"/>
+        </LinearLayout>
+        <LinearLayout            
+            android:layout_width="120dip"
+            android:layout_height="50dip"
+            android:gravity="center_vertical"
+            android:orientation="vertical" >
+            <Button
+                android:id="@+id/shenhai"
+                android:layout_width="100dip"
+                android:layout_height="50dip"
+                android:text="深海蓝"/>
+        </LinearLayout>
+        <LinearLayout          
+            android:layout_width="120dip"
+            android:layout_height="50dip"
+            android:gravity="center_vertical"
+            android:orientation="vertical" >
+            <Button
+                android:id="@+id/tiankong"
+                android:layout_width="100dip"
+                android:layout_height="50dip"
+                android:text="天空蓝"/>
+        </LinearLayout>
+        </LinearLayout>
+    </HorizontalScrollView>    
+
+</LinearLayout>

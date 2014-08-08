@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/white"
+    >
+     <TextView
+        android:id="@+id/qitatx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="其他特效"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20dip"
+        android:textColor="@color/black"
+        />   
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="fill_parent"
+        android:layout_height="350dip"
+        android:layout_gravity="center_horizontal"
+        />
+  <HorizontalScrollView
+        android:id="@+id/horizontalScrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="fill_horizontal">   
+            <LinearLayout
+            android:layout_width="120dip"
+            android:layout_height="50dip"
+            android:gravity="center_vertical"
+            android:orientation="vertical" >
+            <Button
+                android:id="@+id/fudiao"
+                android:layout_width="100dip"
+                android:layout_height="50dip"
+                android:text="浮雕效果"/>
+        </LinearLayout>
+         <LinearLayout          
+            android:layout_width="120dip"
+            android:layout_height="50dip"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/dipian"
+                android:layout_width="100dip"
+                android:layout_height="50dip"
+                android:text="底片效果"/>
+        </LinearLayout>   
+         <LinearLayout
+            android:layout_width="120dip"
+            android:layout_height="50dip"
+            android:gravity="center_vertical"
+            android:orientation="vertical" >
+            <Button
+                android:id="@+id/guangzhao"
+                android:layout_width="100dip"
+                android:layout_height="50dip"
+                android:text="光照效果"/>
+        </LinearLayout>
+         <LinearLayout          
+            android:layout_width="120dip"
+            android:layout_height="50dip"
+            android:gravity="center_vertical"
+            android:orientation="vertical" >
+            <Button
+                android:id="@+id/ruihua"
+                android:layout_width="100dip"
+                android:layout_height="50dip"
+                android:text="锐化效果"/>
+        </LinearLayout>
+        <LinearLayout            
+            android:layout_width="120dip"
+            android:layout_height="50dip"
+            android:gravity="center_vertical"
+            android:orientation="vertical" >
+            <Button
+                android:id="@+id/mohu"
+                android:layout_width="100dip"
+                android:layout_height="50dip"
+                android:text="模糊效果"/>
+        </LinearLayout>
+        <LinearLayout          
+            android:layout_width="120dip"
+            android:layout_height="50dip"
+            android:gravity="center_vertical"
+            android:orientation="vertical" >
+            <Button
+                android:id="@+id/heibaix"
+                android:layout_width="100dip"
+                android:layout_height="50dip"
+                android:text="黑白效果"/>
+        </LinearLayout>
+        </LinearLayout>
+    </HorizontalScrollView>    
+    <LinearLayout
+       android:id="@+id/linearLayout1"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content" 
+       android:orientation="horizontal"
+       >      
+       <Button
+       android:id="@+id/qitaquxiao"
+       android:layout_width="170dip"
+       android:layout_height="50dip"
+       android:text="取消" />
+
+      <Button
+       android:id="@+id/qitabaocun"
+       android:layout_width="170dip"
+       android:layout_height="50dip"
+       android:text="保存" />
+   </LinearLayout>
+
+</LinearLayout>

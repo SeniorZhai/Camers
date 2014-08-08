@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/white"
+    >
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="400dip"
+        android:layout_height="250dip"
+        android:layout_gravity="center_horizontal"
+        />
+  
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="fill_horizontal">   
+            <Button
+                android:id="@+id/fudiao"
+                android:layout_width="90dip"
+                android:layout_height="50dip"
+                android:text="浮雕效果"/>
+            <Button
+                android:id="@+id/dipian"
+                android:layout_width="90dip"
+                android:layout_height="50dip"
+                android:text="底片效果"/>
+ 
+            <Button
+                android:id="@+id/guangzhao"
+                android:layout_width="90dip"
+                android:layout_height="50dip"
+                android:text="光照效果"/>
+    
+            <Button
+                android:id="@+id/ruihua"
+                android:layout_width="90dip"
+                android:layout_height="50dip"
+                android:text="锐化效果"/>
+     
+            <Button
+                android:id="@+id/mohu"
+                android:layout_width="90dip"
+                android:layout_height="50dip"
+                android:text="模糊效果"/>
+     
+            <Button
+                android:id="@+id/heibaix"
+                android:layout_width="90dip"
+                android:layout_height="50dip"
+                android:text="黑白效果"/>
+        </LinearLayout>
+</LinearLayout>
